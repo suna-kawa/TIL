@@ -36,3 +36,7 @@ https://qiita.com/ponsuke0531/items/de829343ed083d9efac8
 cd ruby⇒クローンしたファイルへ移動
 
 ls -a⇒ファイルの中身を表示
+
+# ステージへの追加
+
+`git add<ファイル、ディレクトリ＞`
