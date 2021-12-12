@@ -22,7 +22,7 @@ ffffディレクトリへの移動
 
   gitディレクトリの中身を表示する
   
-# クローンする
+# クローンする!
 git clone https://github.com/ruby/ruby.git
 
 
