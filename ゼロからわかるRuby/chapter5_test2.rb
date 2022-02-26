@@ -44,6 +44,8 @@ p y
 c = ["abc", "xyz"].map{|a| a.reverse}
 p c
 
-
-
-
+# ["aya", "achi", "Tama"]->小文字 アルファベット順に並べて表示
+y = ["aya", "achi", "Tama"].map do |x|
+  x.downcase
+end
+p y.sort
