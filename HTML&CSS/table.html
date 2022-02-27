@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>表を作ろう</title>
+    <meta name="description" content="テーブルタグを使って表を作る">
+  </head>
+  <body>
+  <!-- <table></table>表全体を囲う table -->
+  <!-- <th></th>表の見出しを表示 table header -->
+  <!-- <tr></tr>表の一行を囲う table raw -->
+  <!-- <td></td>表のデータを表示 table date -->
+    <table border="2">
+      <tr>
+        <th>科目</th>
+        <th>単位数</th>
+      </tr>
+      <tr>
+        <td>東洋史</td>
+        <td>4単位</td>
+      </tr>
+      <tr>
+        <td>物理学</td>
+        <td>2単位</td>
+      </tr>
+    </table>
+
+    <table border="2">
+      <tr>
+        <!-- 横方向につなげる<th colspan="2">奇数1と偶数2</th> -->
+        <th colspan="2">偶数と奇数</th>
+      </tr>
+      <tr>
+        <!-- 縦方向に繋げる<th rowspan="2">dddd</th> -->
+        <td rowspan="2">2と4</td>
+      </tr>
+      <tr>
+        <td rowspan="2">3と5</td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
