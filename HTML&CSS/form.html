@@ -1,0 +1,77 @@
+<!-- action⇒データの送信先ページを指定 -->
+<!-- method⇒データの転送方法を指定する。get,post -->
+<!-- name⇒フォームの名前を指定 -->
+<!-- placeholder⇒入力欄にテキストの意味を付与 -->
+名前:<input type="text" placeholder="名字 名前">
+年齢:<input type="age" placeholder="年齢">
+メールアドレス:<input type="email" placeholder="メールアドレス">
+
+<!-- ラジオボタンを作る 複数の選択肢から一つを選ぶ -->
+<!-- name⇒ラジオボタンの名前 -->
+<!-- value⇒送信される選択肢の値 -->
+<!-- checked⇒最初から選択されている状態にする時に指定 -->
+<h1><span style="color: silver;">好きな科目</span></h1>
+<input type="radio" name="subject" value="数学"> 数学
+<input type="radio" name="subject" value="英語" checked> 英語
+<input type="radio" name="subject" value="物理"> 物理
+<input type="submit" value="送信" alt="送信する">
+
+<!-- チェックボックスを作る 複数の選択肢の中から複数を選ぶ -->
+<h2><span style="color: blue;">得意教科</span></h2>
+<input type="checkbox" name="subject" value="心理学"> 心理学
+<input type="checkbox" name="subject" value="日本史"> 日本史
+<input type="checkbox" name="subject" value="歴史学" checked> 歴史学
+<input type="checkbox" name="subject" value="文化人類学" checked> 文化人類学
+<input type="submit" value="登録">
+
+<!-- セレクトボックスを作る -->
+住んでいる方角
+<select name="directiontype">
+  <option value="北">北</option>
+  <option value="南">南</option>
+  <option value="東">東</option>
+  <option value="西">西</option>
+</select>
+
+<!-- 複数行の入力textarea -->
+<textarea name="message" placeholder="メッセージをどうぞ"></textarea>
+
+<!-- ラベル -->
+<div style="color: red;">
+<input type="checkbox" name="country" value="日本" id="japan">
+<label for="japan">日本</label>
+<input type="checkbox" name="country" value="スペイン" id="spain">
+<label for="spain">スペイン</label>
+</div>
+
+<!-- webサイトの要素をグループ分け
+<header>
+  ページタイトル
+  ロゴ画像
+  <nav>
+    ナビゲーションメニュー
+  </nav>
+</header>
+<main>ページの核
+  <article>
+    記事内容を示すもの
+    切り離してもページとして成り立つ内容
+  </article>
+  <section>
+  切り離しても成立しない内容
+  ひとかたまりに一つのテーマがある
+  </section>
+<aside>
+  サイドバー
+  メインとの内容が異なるもの情報がよい
+</aside>
+<footer>
+  ページ下部
+  snsリンクなど
+</footer>  
+<div>
+  特に意味はなく
+  デザインのため
+  ひとまとめにしたいなどに使用
+</div> -->
+
